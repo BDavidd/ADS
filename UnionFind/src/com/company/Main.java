@@ -17,6 +17,9 @@ public class Main {
                 uf.union(p, q);
                 System.out.println(p + " " + q);
             }
+            else {
+                System.out.println(p + " and " + q + " are already connected");
+            }
         }
     }
 }
